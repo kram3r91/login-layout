@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Other / Intercom</title>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+        <filter x="-21.1%" y="-18.9%" width="142.2%" height="142.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login---Account" transform="translate(-14.000000, -762.000000)">
+            <g id="intercom" transform="translate(20.000000, 767.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0099FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M33,34.5 C33,34.5 29.4645,33.10875 26.60475,31.99425 L14.57775,31.99425 C13.1116569,31.949754 11.9583745,30.7266775 12,29.2605 L12,13.23375 C11.9583745,11.7675725 13.1116569,10.544496 14.57775,10.5 L30.4215,10.5 C31.8878893,10.5440913 33.041621,11.7672885 33,13.23375 L33,27.03375 L33,27.03375 L33,34.5 Z M29.89575,25.5135 C29.7816315,25.3682629 29.6118743,25.2774921 29.4277176,25.2632385 C29.2435609,25.2489849 29.061858,25.3125529 28.92675,25.4385 C27.0787515,26.826086 24.8092235,27.5348335 22.5,27.4455 C20.1905394,27.5243787 17.9230707,26.814406 16.071,25.4325 C15.9351533,25.307867 15.7534145,25.2456556 15.5696879,25.260895 C15.3859613,25.2761343 15.2169559,25.3674384 15.1035,25.51275 C14.9831735,25.6623997 14.9244339,25.8522977 14.93925,26.04375 C14.9518515,26.2342173 15.0372506,26.412535 15.17775,26.54175 C15.28425,26.63775 17.8305,28.90425 22.49925,28.90425 C27.168,28.90425 29.715,26.63775 29.8215,26.54175 C29.9620391,26.4126458 30.0472266,26.2342088 30.05925,26.04375 C30.0745425,25.8525975 30.0160342,25.6628481 29.89575,25.5135 Z" id="intercom_icon" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
