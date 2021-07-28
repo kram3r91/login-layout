@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Login page</title>
+
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body
+        class="login-layout"
+    >
+        <nav
+            class="navigation"
+        >
+            <ul>
+                <li>
+                    <a href="#">
+                        <img
+                            src="img/logo-name.svg"
+                            alt="nav-icon"
+                        />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div
+            class="container"
+        >
+            <div
+                class="form-container"
+            >
+                <form
+                    class="form"
+                >
+                    <p
+                        class="form-title"
+                    >
+                        Login to overpass
+                    </p>
+                    <div
+                        class="email-group"
+                    >
+                        <label
+                            for="email"
+                        >
+                            Email
+                        </label>
+                        <input
+                            type="text"
+                            placeholder="Type your email"
+                            id="email"
+                        />
+                    </div>
+                    <div
+                        class="password-group"
+                    >
+                        <label
+                            for="password"
+                        >
+                            Password
+                        </label>
+                        <input
+                            type="password"
+                            placeholder="Type your password"
+                            id="password"
+                        />
+                        <img
+                            src="img/eye_icon.svg"
+                            class="password-icon"
+                            onclick="togglePassword()"
+                            alt="toggle-password"
+                        />
+                    </div>
+                    <div
+                        class="buttons-group"
+                    >
+                        <button
+                            class="register-button"
+                        >
+                            Create Account
+                        </button>
+                        <button
+                            class="login-button"
+                        >
+                            Login
+                        </button>
+                    </div>
+                </form>
+                <button
+                    class="forgot-button"
+                >
+                    Forgot Password
+                </button>
+            </div>
+        </div>
+        <button
+            class="contact"
+        >
+            <img
+                src="img/Intercom.svg"
+                alt="contact-icon"
+            />
+        </button>
+        <script src="js/script.js"></script>
+    </body>
+</html>
